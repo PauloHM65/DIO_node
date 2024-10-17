@@ -1,0 +1,26 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dist:tsx": "npx tsc",
+    "start:dev:tsx": "tsx src/index.ts",
+    "start:watch:tsx": "tsx watch src/index.ts",
+    "start:dist": "npm run dist:tsx && node dist/index.js",
+    "dist:tsup": "tsup src",
+    "start:dist:tsup": "npm run dist:tsup && node dist/index.cjs",
+    "start:tsup": "tsup src/index.ts"
+  },
+  "keywords": [],
+  "author": "PH",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "tsx": "^4.19.1"
+  }
+}
