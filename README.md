@@ -12,7 +12,7 @@ The projects are organized into folders based on the main topic covered. Each fo
 
 - **Basic Node.js Concepts**: First steps with Node.js, including file handling, modules, and creating a basic server.
 - **npm and Dependency Management**: Using npm for installation, updating, and dependency management, as well as best practices for creating `package.json`.
-- **APIs with Node.js**: Creating APIs without any frameworks.
+- **APIs with Node.js**: Creating APIs without any frameworks and with Express and Fastfy.
 - **TypeScript with Node.js**: Projects that use TypeScript to add static typing and improve code quality, focusing on best practices.
 
 ## Prerequisites
